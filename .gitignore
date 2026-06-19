@@ -1,0 +1,9 @@
+# NetBeans build output
+/build/
+/dist/
+
+# NetBeans private local settings (machine-specific paths/passwords)
+/nbproject/private/
+
+# NetBeans auto-generated deploy file
+/nbproject/ant-deploy.xml

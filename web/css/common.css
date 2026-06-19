@@ -1,0 +1,111 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15 Jun 2025, 9:25:15 pm
+    Author     : NuNa
+*/
+
+/* common.css */
+
+/* Buttons */
+button, input[type="submit"] {
+    background-color: #e67e22; /* warm orange */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #d35400; /* darker orange */
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 0 5px 0 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2980b9; /* bright blue */
+    background-color: transparent;
+    border: 2px solid #2980b9;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
+.btn-link:active {
+    background-color: #2874a6; /* darker blue */
+    border-color: #2874a6;
+    color: white;
+}
+
+/* Forms */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+th, td {
+    padding: 14px 18px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #2980b9; /* bright blue */
+    color: white;
+    font-weight: 700;
+}
+
+.error {
+    color: #e74c3c; /* bright red */
+    font-weight: bold;
+    margin-bottom: 18px;
+    text-align: center;
+}
+

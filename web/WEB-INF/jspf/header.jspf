@@ -1,0 +1,9 @@
+<%
+    String headerTitle = (String) request.getAttribute("headerTitle");
+    if (headerTitle == null) {
+        headerTitle = "University Management System";
+    }
+%>
+<header>
+    <%= headerTitle %>
+</header>
